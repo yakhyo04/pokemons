@@ -186,4 +186,7 @@ body{
     .container{
         width: 400px;
     }
+    .pokins__image{
+        width: 300px;
+    }
 }
