@@ -180,6 +180,9 @@ body{
     .container{
         width: 700px;
     }
+    #form{
+        margin-left: 60px;
+    }
 }
 
 @media (max-width: 500px){
@@ -188,5 +191,11 @@ body{
     }
     .pokins__image{
         width: 300px;
+    }
+    li{
+        margin-left: 50px;
+    }
+    #form{
+        margin-left: 40px;
     }
 }
