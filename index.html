@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top__image">
+            <a href="./index.html"><img class="pokins__image" src="./img/pokemon_logo 1.svg" alt="pokemon"></a>
+        </div>
+        <div class="save-data" id="love-icon" >
+           
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()"> <img class="save-img"  src="./img/Base.png" alt="love-icon"></span>
+
+        </div>
+
+        <main id="main">
+            <form id="form">
+                <select name="select__genre" id="select__genre">
+                    <option value="all">All</option>
+                </select>
+                <select name="select__sort" id="select__sort">
+                    <option value="all">All</option>
+                    <option value="a_z">A_Z</option>
+                    <option value="z_a">Z_A</option>
+                </select>
+                <input type="text" required id="main__input" placeholder="Search">
+                <button type="submit" class="search__button">
+                    <img class="input__search" src="./img/search.png" alt="search">
+                </button>
+                <button id="submit" class="search__button submit ">Button</button>
+            </form>
+        </main>
+        <ul id="page">
+         
+        </ul>
+        <template id="template">
+            <li id="page__item">
+                <img id="page__img" src="./img/004 1.png" alt="img">
+                <hr id="page__line">
+                <span id="page__firstList">
+                    <div>
+                    <h4 id="page__title" >Pokemons</h4> 
+                    <p id="page__genre">Grass, Poison</p>
+                    </div>
+                    <div id="pageSaver" >
+                        <img id="page__icon" src="./img/serdsa.png" alt="search">
+                    </div>
+                   
+                </span>
+                   <div class="divider">
+                    <p id="page__weight">6.9kg</p>
+                    <p id="page__age">99 m</p>
+                   </div>
+                    
+
+
+            </li>
+        </template>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul id="canvas__list" >
+           
+        </ul>
+      </div>
+      
+
+      <svg>
+        <use xlink:href="#bike" />
+      </svg>
+     <script src="./util.js"></script>
+    <script src="./data.js"></script>
+    <script src="./main.js"></script>
+   
+</body>
+
+</html>
